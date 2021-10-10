@@ -79,7 +79,7 @@ nav, li, a
 .back_img
 {
     background-color: hsl(0, 0%, 60%);
-    opacity: 0.66;
+    opacity: 0.3;
    
 
 }
@@ -323,7 +323,6 @@ nav, li, a
 .bottom_linktxt
 {
 	border-style: none none solid;
-	border-radius: 3px;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 0.875rem;
