@@ -55,6 +55,7 @@ header
 
 }
 
+
 nav, li, a
 {
 	color: rgb(255, 255, 255) !Important;
@@ -156,7 +157,7 @@ nav, li, a
 	/*display: flex; 
 	flex-flow: row wrap;
 	justify-content: center;*/
-	width: 1263px; 
+	width: 963px; 
 	margin: 0 auto;
 
 }
@@ -191,14 +192,13 @@ nav, li, a
 {
 	margin-top: 15px;
 	display: flex; 
-	flex-direction: row;
-	flex-wrap: wrap;
+	flex-flow: row wrap;
 	justify-content: center;
 }
 
 .info_menu .menu1
 {
-	flex-basis: 500px;
+	flex-basis: 400px;
 	margin: 20px;
 	display:  flex;
 	flex-flow: column;
