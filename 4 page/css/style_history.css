@@ -1,0 +1,370 @@
+@font-face {
+  font-family: 'Alex Brush';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/alexbrush/v13/SZc83FzrJKuqFbwMKk6EhUXz7Q.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/opensans/v26/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4gaVI.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiGyp8kv8JHgFVrLPTucHtA.woff2) format('woff2');
+}
+
+
+
+
+
+body
+{
+	margin: 0; 
+	padding: 0;
+	font-family: "Poppins",sans-serif;
+	overflow-x: hidden;
+}
+
+header
+{
+	height: 65px; 
+	z-index: 10; 
+	font-size: 14px;
+}
+
+.menu_bar
+{
+	position: fixed; 
+	z-index: 100; 
+	width: 100%; 
+	background: rgba(153, 153, 153, .66);
+	transition: background 1s linear;
+}
+
+.menu_bar:hover
+{
+	background: rgb(153, 153, 153); 
+	transition: background 1s linear;
+}
+
+.tf
+{
+	vertical-align: middle; 
+	padding: 10px 0;
+	font-family:'Akronim', cursive;
+	font-size: 40px; 
+	font-weight: 400; 
+	line-height: 1.321;
+	margin: 0;
+	color: rgb(255, 255, 255) !important;
+}
+
+.primary_navigation
+{
+	position: absolute;
+	right: 0;
+	top: 8px;
+
+
+}
+
+
+nav, li, a
+{
+	color: rgb(255, 255, 255) !Important;
+	display: inline-block;
+	list-style: none;
+	font-size: 20px;
+	font-weight: 700;
+	text-decoration: none !Important;
+	text-transform: uppercase;
+	margin: 0 10px;
+}
+
+.txt
+{
+	background: none !Important;
+	border: 1px solid rgb(255, 255, 255) !Important;
+}
+
+
+.back_pos
+{
+	display: flex; 
+	flex-direction: column;
+	align-items: center;
+}
+
+.back_color
+{
+	width: 888px; 
+	margin: 0 auto;
+	background-image: none;
+	background-color: rgba(153, 153, 153, .3);
+}
+
+.txt_head
+{
+	font-family: "Alex Brush";
+	margin-top: 70px; 
+	font-size: 4.5rem;
+	line-height:1;
+}
+
+.txt_head2
+{
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+    margin: 27px 0 17px;
+
+}
+
+.cont_headTxt
+{
+	text-align: center;
+}
+
+.line
+{
+
+		background-color: rgb(42, 115, 204);
+    display: inline-block;
+    height: 2px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 150px;
+
+}
+
+.blog_content
+{
+	
+	width: 888px;
+	margin:  20px auto;
+}
+
+
+.animation_img{
+	text-align:center;
+	display: flex;
+	justify-content: center;}
+
+.pos_size{
+	display: flex; 
+	justify-content: center;
+	height: 350px; 
+	width: 345px; }
+
+.img_ani{
+	width: 100%; 
+	height: 100%; 
+	background-size: cover; 
+	background-position: center center;
+	animation: images;
+	animation-duration: 9s; 
+	animation-iteration-count: infinite;}
+
+
+.table2_txts{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+}
+
+
+.txt_BlogP
+{
+	font-size: 15px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin: 20px 50px;
+
+
+}
+
+td
+{
+	font-weight: 700;
+}
+
+
+footer 
+{
+	height: 20px;
+}
+
+.all_elem
+{
+	width:100%;
+	height: 300px;
+	position:relative;
+	top: 0px;
+	background-color: rgb(242, 242, 242);
+	text-align: center;
+}
+
+.over_Txt, .icons_info
+{
+	position: relative;
+	top: 80px;
+	margin: 0 180px;
+}
+
+.over
+{
+	position: absolute;
+	left: 41%;
+	bottom: 0;
+	margin: 0; 
+}
+
+.footerTxt
+{
+	color: rgb(0, 0, 0);
+	font-family: "Playfair Display", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1em;
+    margin: 0 30px;
+}
+
+
+
+@keyframes images 
+{
+
+	from
+	{
+		background-image: url("../../images/Kurdak.jpg");
+	}
+
+	25%
+	{
+		background-image: url("../../images/March_Soup.jpg");
+	}
+
+	50%
+	{
+		background-image: url("https://legkogotovit.com//i/recipes/909/391_0/vXCGAIV7.jpg");
+	}	
+
+	to
+	{
+		background-image: url("../../images/national_kazakh.jpg");
+	}
+
+}
+
+
+
+
+
+@media(max-width:  360px) and (max-height: 650px)
+{
+	.menu_bar
+	{
+		height: 60px; 
+	}
+
+	.txt
+	{
+		padding: 2px;
+	}
+
+	.primary_navigation
+	{
+		position: absolute;
+		left: 0;
+		top: 25px;
+	}
+
+	nav, li, a
+	{
+		margin: 0 5px;
+
+	}
+
+	.back_color
+	{
+		width: 310px; 
+		margin: 0 auto;
+	}
+
+	.blog_content
+	{
+		width:  310px;
+		margin: 20px auto;
+	}
+
+	.table-responsive
+	{
+		max-width: 360px;
+	}
+
+	table
+	{
+		width: 360px;
+	}
+
+
+			.svg_logo
+		{
+			width: 18px;
+			height:  18px;
+		}	
+
+		.over_Txt, .icons_info
+		{
+				top: 30px;
+				margin: 0;
+		}
+
+		.all_elem
+		{
+			top: -50px;
+			height: 200px;
+		}
+
+		.over
+		{
+			left: 20%;
+
+		}
+
+
+	/*fontsize*/
+		nav, li, a, .head_txt1, .footerTxt
+	{
+		font-size: 12.5px;
+	}
+
+	.tf, .txt_header
+	{
+		font-size: 20px;
+	}
+
+	.txt_head
+	{
+		font-size: 2rem;
+	}
+
+	.txt_head2
+	{
+		text-align: center;
+		font-size: 15px; 
+		margin: 10px 15px 17px;
+	}
+
+	.txt_BlogP{
+		font-size: 10px;
+
+	}
+
+
+}

@@ -1,0 +1,504 @@
+@font-face {
+  font-family: 'Alex Brush';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/alexbrush/v13/SZc83FzrJKuqFbwMKk6EhUXz7Q.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/opensans/v26/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4gaVI.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiGyp8kv8JHgFVrLPTucHtA.woff2) format('woff2');
+}
+
+
+
+
+
+body
+{
+	margin: 0; 
+	padding: 0;
+	font-family: "Poppins",sans-serif;
+	overflow-x: hidden;
+}
+
+header
+{
+	height: 65px; 
+	z-index: 10; 
+	font-size: 14px;
+}
+
+.menu_bar
+{
+	position: fixed; 
+	z-index: 100; 
+	width: 100%; 
+	background: rgba(153, 153, 153, .66);
+	transition: background 1s linear;
+}
+
+.menu_bar:hover
+{
+	background: rgb(153, 153, 153); 
+	transition: background 1s linear;
+}
+
+.tf
+{
+	vertical-align: middle; 
+	padding: 10px 0;
+	font-family:'Akronim', cursive;
+	font-size: 40px; 
+	font-weight: 400; 
+	line-height: 1.321;
+	margin: 0;
+	color: rgb(255, 255, 255) !Imoprtant;
+}
+
+.primary_navigation
+{
+	position: absolute;
+	right: 0;
+	top: 8px;
+
+
+}
+
+
+nav, li, a
+{
+	color: rgb(255, 255, 255) !Important;
+	display: inline-block;
+	list-style: none;
+	font-size: 20px;
+	font-weight: 700;
+	text-decoration: none !Important;
+	text-transform: uppercase;
+	margin: 0 10px;
+}
+
+.txt
+{
+	background: none !Important;
+	border: 1px solid rgb(255, 255, 255) !Important;
+}
+
+
+.back_pos
+{
+	display: flex; 
+	flex-direction: column;
+	align-items: center;
+}
+
+.back_color
+{
+	width: 888px; 
+	margin: 0 auto;
+	height: 521px;
+	background-image: none;
+	background-color: rgba(153, 153, 153, .3);
+}
+
+.txt_head
+{
+	font-family: "Alex Brush";
+	margin-top: 70px; 
+	font-size: 4.5rem;
+	line-height:1;
+}
+
+.txt_head2
+{
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+    margin: 27px 0 17px;
+
+}
+
+.cont_headTxt
+{
+	text-align: center;
+}
+
+.line
+{
+
+		background-color: rgb(42, 115, 204);
+    display: inline-block;
+    height: 2px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 150px;
+
+}
+
+
+
+.pos_info_price{
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 10px;
+	position:relative;
+	top: -200px;}
+
+.info_img .img_pr{
+	overflow: hidden;
+	min-width: 230px;
+	max-width: 250px;
+	height:  300px;}
+
+.img_price{
+	position:relative;
+	left: -100px;
+	display: block;
+	min-height: 100%;}
+
+.all_txt{
+	display: flex; 
+	flex-direction: column;
+	align-items: center;}
+
+.txt1, .txt3{
+	font-family: Open Sans, sans-serif;}
+
+.txt2, .txt4{
+	font-family: "Alex Brush", sans-serif;
+	font-size: 25px;}
+ 
+.pos_waters{
+	display: flex;
+	flex-direction: row; 
+	flex-wrap: wrap;
+	justify-content: space-around;
+	position: relative;
+	top: -200px;
+	width: 1263px;
+	margin: 0 auto 50px auto;}
+
+.drink_info .info_pic, .pic_water{
+	overflow: hidden;
+	min-width: 230px; 
+	max-width: 320px; 
+	height: 340px;}
+
+.review_tehBestRes{
+	display: flex;
+	flex-direction: column; 
+	align-items: center;
+	position:relative;
+	top: -140px;}
+
+.row1{
+	margin: 0;
+	display: flex;
+	justify-content: space-around;}
+
+.pos_primary{  margin: 40px 0;}
+
+ .header_txtReview{
+    font-family: "Playfair Display", sans-serif;
+    font-size: 45px; 
+    margin-bottom: 10px;}
+
+.header_txtreview2{
+	font-size: 20px;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+	font-weight: 700;}
+
+.ih-item{
+	position: relative;
+	transition: all 0.35s ease-in-out;}
+
+.ih-item, .ih-items * {
+	box-sizing: border-box;}
+
+.ih-items a{
+	color: hsl(0, 0%, 20%);}
+
+.ih-item a:hover{
+	text-decoration: none;}
+
+.ih-item img{
+	width: 100%; 
+	height: 100%;}
+
+.ih-item.circle{
+	position: relative;
+	width: 320px;
+	height: 320px;
+	border-radius: 50%;
+	margin: 0 120px;}
+
+.ih-item.circle .img{
+	position: relative;
+	width: 320px;
+	height: 320px;
+	border-radius: 50%;}
+
+.ih-item.circle .img:before{
+	position: absolute;
+	display: block;
+	content: '';
+	width: 100%;
+	height:100%; 
+	border-radius: 50%;
+	box-shadow: inset 0 0 0 16px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+	transition: all 0.35s ease-in-out;}
+
+.ih-item.circle .img img{
+	border-radius: 50%;}
+
+.ih-item.circle .info{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left:0; 
+	right:0;
+	text-align: center;
+	border-radius: 50%;}
+
+.ih-item.circle.effect3 .img{
+	z-index: 11;
+	transition: all 0.35s ease-in-out;}
+
+.ih-item.circle.effect3.colored .info{
+	background: hsl(207, 63%, 27%);}
+
+.ih-item.circle.effect3 .info{
+	background: hsl(0, 0%, 20%);
+	opacity: 0;
+	pointer-events: none;
+	transition: all 0.35s ease-in-out;}
+
+.ih-item.circle.effect3 .info h3{
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	position: relative;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin: 0 30px;
+	padding: 55px 0 0 0;
+	height: 110px;
+	text-shadow: 0 0 1px rgb(255, 255, 255) 0 1px 2px rgba(0, 0, 0, 0.3 );
+} 
+.ih-item.circle.effect3 .info p{
+	color: hsl(0, 0%, 73%);
+	padding: 10px 5px ;
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 12px;
+	border-top: 1px solid rgba(255, 255, 255, 0.5);}
+
+.ih-item.circle.effect3.left_to_right .img{
+	transform: scale(1) translateX(0);}
+
+.ih-item.circle.effect3.left_to_right .info{
+	transform: translateX(-400px);}
+
+.ih-item.circle.effect3.left_to_right a:hover .img{
+	transform: scale(0.5) translateX(400px);}
+
+.ih-item.circle.effect3.left_to_right a:hover  .info{
+	opacity: 1;
+	transform: scale(1) translateX(0);}
+
+
+
+
+footer 
+{
+	height: 20px;
+}
+
+.all_elem
+{
+	width:100%;
+	height: 300px;
+	position:relative;
+	top: -20px;
+	background-color: rgb(242, 242, 242);
+	text-align: center;
+}
+
+.over_Txt, .icons_info
+{
+	position: relative;
+	top: 80px;
+	margin: 0 180px;
+}
+
+.over
+{
+	position: absolute;
+	left: 41%;
+	bottom: 0;
+	margin: 0; 
+}
+
+.footerTxt
+{
+	color: rgb(0, 0, 0);
+	font-family: "Playfair Display", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1em;
+    margin: 0 30px;
+}
+
+
+
+
+/*Galaxy S5 📱📲*/
+@media(max-width:  360px) and (max-height:  650px)
+{
+		.menu_bar
+	{
+		height: 60px;
+	}
+
+	.txt
+	{
+		padding: 2px;
+	}
+
+	.btn_view_cen
+	{
+		position: relative;
+    bottom: 50px;
+	}
+
+	.btn_view_cen:active
+	{
+		background-color: rgba(143, 154, 169, 0.4) !Important;
+	}
+
+	.btn_view:active
+	{
+		background-color: rgba(143, 154, 169, 0.4) !Important;
+	}
+
+	.primary_navigation
+	{
+		position: absolute;
+		left: 0;
+		top: 25px;
+	}
+
+	.tf,  .txt_header
+	{
+			font-size: 20px;
+	}
+
+	nav, li, a
+	{
+		margin: 0 5px;
+
+	}
+
+	nav, li, a, .head_txt1, 
+	 .footerTxt
+	{
+		font-size: 12.5px;
+	}
+
+	.back_color
+	{
+		width: 300px;
+		margin: 0 auto;
+		height: 451px;
+	}
+
+	.txt_head, .header_txtReview
+	{
+		font-size: 2rem;
+	}
+
+	.txt_head2
+	{
+		text-align:center;
+		font-size: 15px;
+		margin: 10px 15px 17px;
+	}
+
+	.header_txtreview2
+	{
+		font-size: 15px;
+	}
+
+	.dirnk_ingo .ingo_pic, .pic_water 
+	{
+		max-width: 230px;
+	}
+
+	.pos_waters
+	{
+		display: flex;
+		flex-direction:row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+		width: 230px;
+		margin: 0 auto 50px auto;
+	}
+
+	.row1
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.ih-item.circle
+	{
+		width: 280px;
+		height: 280px;
+		margin: 20px 0 20px 50px;
+	}
+
+	.ih-item.circle .img
+	{
+		width: 220px;
+		height: 220px;
+
+	}
+
+
+		.svg_logo
+		{
+			width: 18px;
+			height:  18px;
+		}	
+
+		.over_Txt, .icons_info
+		{
+				top: 30px;
+				margin: 0;
+		}
+
+		.all_elem
+		{
+			top: -100px;
+			height: 200px;
+		}
+
+		.over
+		{
+			left: 20%;
+
+		}
+
+}

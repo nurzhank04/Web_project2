@@ -22,6 +22,7 @@
 
 
 
+
 html, body
 {
 	margin: 0; 
@@ -39,7 +40,7 @@ header
 .menu_bar
 {
 	position: fixed; 
-	z-index: 11; 
+	z-index: 100; 
 	width: 100%; 
 	background: rgba(153, 153, 153, .66);
 	transition: background 1s linear;
@@ -85,6 +86,8 @@ nav, li, a
 	margin: 0 10px;
 }
 
+
+
 .txt
 {
 	background: none !Important;
@@ -92,112 +95,168 @@ nav, li, a
 }
 
 
-.back_pos{
+
+.back_pos
+{
 	display: flex; 
 	flex-direction: column;
 	align-items: center;
 }
 
-.back_color{
-	width: 888px; 
+
+
+.back_color
+{
+	width: 1118px; 
 	margin: 0 auto;
-	height: 521px;
+	background-image: none;
+	
+}
+
+.header_content
+{
+
 	background-image: none;
 	background-color: rgba(153, 153, 153, .3);
 }
 
-.txt_head{
+.txt_head
+{
 	font-family: "Alex Brush";
 	margin-top: 70px; 
 	font-size: 4.5rem;
 	line-height:1;
 }
 
-.txt_head2{
+.txt_head2
+{
 	font-family: 'Open Sans', sans-serif;
 	font-style: italic;
-    margin: 27px 0 17px;
+    margin: 27px 106px 17px;
+
 }
-.cont_headTxt{	text-align: center;}
-.line{
-	background-color: rgb(42, 115, 204);
+
+.cont_headTxt
+{
+	text-align: center;
+}
+
+.line
+{
+
+		background-color: rgb(42, 115, 204);
     display: inline-block;
     height: 2px;
     margin-bottom: 5px;
     margin-top: 5px;
-    width: 49px;}
+    width: 150px;
 
+}
 
+.line2
+{
+		background-color: rgb(42, 115, 204);
+    display: inline-block;
+    height: 2px;
+    margin-bottom: 5px;
+    margin-top: 35px;
+    width: 250px;
+}
 
-    .grid_gallery{
-    position: absolute;
-    top: -515px;
-	left: 100px;}
+.line3
+{
+	background-color: rgb(42, 115, 204);
+    display: block;
+    height: 2px;
+    margin-bottom: 5px;
+    margin-top: 35px;
+    width: 360px;
+}
 
-    .grid_gallery figure{
-	overflow: hidden;
-	margin: 20px; 
-	min-width: 360px;
-	max-width: 2px; 
-	max-height: 460px; 
-	text-align: center; }
-
-    .img_2{
-	overflow: hidden;
-	margin: 0; 
-	min-width: 330px;
-	max-width: 2px; 
-	max-height: 250px; 
-	height: 230px;
+.info_link{
 	text-align: center;}
 
-	.grid_gallery figure img{
-	position:  relative;
-	display: block; 
-	min-height: 100%;}
+.linkInfo{ margin: 5px;}
 	
-	.img_1{
-	transform: translate3d(-130px, 0, 0);}
-    
-	.flex_right_left{
- 	display: flex; 
-	justify-content: space-between;}
+.linkInfo:hover a{
+	font-weight: 700;
+	color: rgb(40, 101, 244) !important;
+	transition: all 0.35s ease-in-out;}
 
-    .cen_flex{
+.txt2 {
+	background: none !important;
+	border: 1px solid rgb(255, 255, 255) !important;}
+
+.txt2:hover{
+	background-color: rgba(153, 153, 153, .1) !important; }
+
+.dinner_recieps{	margin: 80px;}
+
+.pos_for_elemHead{
 	display: flex; 
 	flex-direction: column;
-	align-items: center;
+	margin-left: 40px;}
+
+.country_food{
+	display: flex; 
+	flex-direction: row;}
+
+.elem_imgTxt{
+	display: flex;
+	flex-direction: row;
+	align-items: space-around;}
+
+.simple_but{
+	display: flex;
+	margin: 10px;}
+
+.pos_button_price{
+	position:absolute;
+	right: 0;
+	margin-right: 200px;}
+
+.elem_imgTxt .img_food{
+	overflow: hidden;
+	max-width: 320px;
+	min-width: 320px; 
+	height: 320px;}
+
+.img_1{
 	position:relative;
-	top: 915px;}
-	
-	.btn_view_cen {
-	font-weight: 700; 
-	font-size: 7px; 
-	color: hsl(0, 0%, 100%);
+	left: -100px;
+	min-height: 100%;}
+
+.img_2{
 	position: relative;
-	bottom: 50px; 
-	left: 0;
-	margin-bottom: 10px;
-	margin-left: 10px;}
-    
-	.btn_view_cen:hover{
-	background-color: rgba(143, 154, 169, 0.4);}
+	min-height:100%;}
 
-    .btn_view{
+.inco_clickTxt{
+	font-size: 15px;
+	letter-spacing: 2px;
+	font-family: Open Sans, sans-serif;}
+
+.info_click{ margin: 0;}
+
+.head_txt{
+	font-family: "Playfair Display", sans-serif;
+    font-size: 45px;
+    margin-bottom: 10px;}
+
+.country_Name{
+	font-size: 15px;
 	font-weight: 700; 
-	font-size:  12px; 
-	color: rgb(255, 255,255);
-	position: absolute;
-	bottom: 0; 
-	left: 0;
-	margin-bottom: 10px;
 	margin-left: 10px;}
-    
-	.btn_view:hover{
-	background-color: rgba(143, 154, 169, 0.4);}
-    
-	.col-sm{  padding:  0 !important;}
 
+.text_infoP{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4em;
+    margin: 20px 30px 20px;}
+
+ td{ font-weight: 700;}
+
+	
 
 
 footer 
@@ -209,9 +268,8 @@ footer
 {
 	width:100%;
 	height: 300px;
-	position: relative;
-	top: 730px;
-	
+	position:relative;
+	top: 0px;
 	background-color: rgb(242, 242, 242);
 	text-align: center;
 }
@@ -226,8 +284,9 @@ footer
 .over
 {
 	position: absolute;
-	bottom: 0;
 	left: 41%;
+	bottom: 0;
+	margin: 0; 
 }
 
 .footerTxt
@@ -241,34 +300,17 @@ footer
 }
 
 
-
-/*Galaxy S5*/
+/*Galaxy S5 */
 @media(max-width:  360px) and (max-height:  650px)
 {
 	.menu_bar
 	{
-		height: 60px;
+		height: 60px; 
 	}
 
 	.txt
 	{
 		padding: 2px;
-	}
-
-	.btn_view_cen
-	{
-		position: relative;
-    bottom: 50px;
-	}
-
-	.btn_view_cen:active
-	{
-		background-color: rgba(143, 154, 169, 0.4) !Important;
-	}
-
-	.btn_view:active
-	{
-		background-color: rgba(143, 154, 169, 0.4) !Important;
 	}
 
 	.primary_navigation
@@ -278,96 +320,46 @@ footer
 		top: 25px;
 	}
 
-	.tf,  .txt_header
-	{
-			font-size: 20px;
-	}
-
 	nav, li, a
 	{
 		margin: 0 5px;
 
 	}
 
-	nav, li, a, .head_txt1, 
-	 .footerTxt
-	{
-		font-size: 12.5px;
-	}
-
 	.back_color
 	{
-		width: 300px;
+		width: 310px; 
 		margin: 0 auto;
-		height: 451px;
-	}
-
-	.txt_head
-	{
-		font-size: 2rem;
-	}
-
-	.txt_head2
-	{
-		text-align:center;
-		font-size: 15px;
-		margin: 10px 15px 17px;
 	}
 
 
-	.grid_gallery
+	.elem_imgTxt .img_food 
 	{
-		position: absolute;
-		top: -80px;
-		left: 0;
+		min-width: 220px;
+		height: 220px;
 	}
 
-	.grid_gallery figure
+	.pos_for_elemHead
 	{
-		
-		margin: 20px;
-		min-width: 270px; 
-		max-height: 300px;
-
-	}
-
-	.flex_right_left
-	{
-		display: flex; 
-		flex-flow: column;
 		align-items: center;
-		justify-content: flex-end;
-		position:relative;
-		top: 380px;
+		margin: 0;
 	}
 
-	.cen_flex
+	.pos_button_price
 	{
-		position: relative;
-		top: 400px;
+		margin-right: 25px;
 	}
 
-
-	.img_2
+	.elem_imgTxt
 	{
-		min-width: 270px; 
-		height: 250px;
+		flex-wrap: wrap;
 	}
 
 	.img_1
 	{
-		transform: translate3d(-170px, 0px, 0px);
+		top: -30px;
 	}
 
-
-	.grid_gallery figure img
-	{
-		position:  relative;
-		display: block; 
-		min-width: 100%;
-		
-		
-	}
 
 		.svg_logo
 		{
@@ -381,15 +373,46 @@ footer
 				margin: 0;
 		}
 
+		.all_elem
+		{
+			top: -50px;
+			height: 200px;
+		}
+
 		.over
 		{
 			left: 20%;
 
 		}
 
-		.all_elem
-		{
-			height: 200px;
-			top: 124.5em;
-		}
+
+
+/*font-sizes*/
+	nav, li, a, .head_txt1, .footerTxt
+	{
+		font-size: 12.5px;
+	}
+
+	.tf, .txt_header
+	{
+		font-size: 20px;
+	}
+
+	.txt_head
+	{
+		font-size: 2rem;
+	}
+
+	.txt_head2
+	{
+		text-align: center;
+		font-size: 15px; 
+		margin: 10px 15px 17px;
+	}
+
+	.text_infoP{
+		font-size: 13px;
+
+	}
+
 }

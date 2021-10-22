@@ -31,4 +31,4 @@ Develop web site about Kazakhstan. For instance by your web site you can describ
 
 
 
-![Optional Text](images/12.1.png)
+![Optional Text](images/12.1.png)# Web_project2
